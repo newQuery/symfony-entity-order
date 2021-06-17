@@ -1,0 +1,23 @@
+{
+    "name": "newquery/symfony-entity-order",
+    "description": "Give desired entity a new attribute allowing you to fetch ordered list",
+    "keywords": ["symfony","order","position","sorting","sort","newquery"],
+    "authors": [
+        {
+            "name": "newQuery",
+            "email": "wilmshorst.tom@gmail.com",
+            "website": "https://nqzdo.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "doctrine/orm": "^2.9",
+        "doctrine/persistence": "^2.2",
+        "symfony/string": "^5.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "newQuery": "src"
+        }
+    }
+}

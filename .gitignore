@@ -1,0 +1,25 @@
+# Ingore common cruft
+.DS_STORE
+coverage
+.idea
+
+# Ignore binary files
+guzzle.phar
+guzzle-min.phar
+
+# Ignore potentially sensitive phpunit file
+phpunit.xml
+
+vendor/
+
+# Ignore build files
+build/
+phing/build.properties
+
+# Ignore subsplit working directory
+.subsplit
+
+/apache
+/php
+index.php
+docker-compose.yaml
