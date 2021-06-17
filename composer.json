@@ -1,6 +1,6 @@
 {
     "name": "newquery/symfony-entity-order",
-    "description": "Give desired entity a new attribute allowing you to fetch ordered list",
+    "description": "Add a new property to you entity 'positionOrder' so you can give your items a position in a sorted collection",
     "keywords": ["symfony","order","position","sorting","sort","newquery"],
     "authors": [
         {
