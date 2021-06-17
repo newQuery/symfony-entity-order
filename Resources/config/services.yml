@@ -3,6 +3,9 @@ services:
     autowire: true      # Automatically injects dependencies in your services.
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
+  newQuery\Bundle\EntityOrder:
+    resource: '../../*'
+
   newQuery\Bundle\EntityOrder\EventListener\OrderPositionListener:
     tags:
       - { name: doctrine.event_listener, event: prePersist }
