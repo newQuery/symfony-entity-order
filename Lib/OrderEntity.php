@@ -1,7 +1,7 @@
 <?php
 
 
-namespace newQuery\Lib;
+namespace newQuery\Bundle\EntityOrder\Lib;
 
 use Doctrine\ORM\Mapping as ORM;
 

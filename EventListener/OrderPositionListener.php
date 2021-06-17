@@ -1,9 +1,9 @@
 <?php
 
-namespace newQuery\EventListener;
+namespace newQuery\Bundle\EntityOrder\EventListener;
 
-use newQuery\Lib\OrderEntity;
-use newQuery\Helper\OrderPositionHelper;
+use newQuery\Bundle\EntityOrder\Lib\OrderEntity;
+use newQuery\Bundle\EntityOrder\Helper\OrderPositionHelper;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 
 /**

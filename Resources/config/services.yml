@@ -1,0 +1,5 @@
+services:
+  newQuery\Bundle\EntityOrder\EventListener\OrderPositionListener:
+    tags:
+      - { name: doctrine.event_listener, event: prePersist }
+      - { name: doctrine.event_listener, event: preRemove }

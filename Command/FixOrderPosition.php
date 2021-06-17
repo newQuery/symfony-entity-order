@@ -1,10 +1,10 @@
 <?php
 
-namespace newQuery\Command;
+namespace newQuery\Bundle\EntityOrder\Command;
 
-use newQuery\Lib\OrderEntity;
-use newQuery\Helper\ClassReflectionHelper;
-use newQuery\Helper\OrderPositionHelper;
+use newQuery\Bundle\EntityOrder\Lib\OrderEntity;
+use newQuery\Bundle\EntityOrder\Helper\ClassReflectionHelper;
+use newQuery\Bundle\EntityOrder\Helper\OrderPositionHelper;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

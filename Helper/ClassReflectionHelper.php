@@ -1,6 +1,6 @@
 <?php
 
-namespace newQuery\Helper;
+namespace newQuery\Bundle\EntityOrder\Helper;
 
 use Doctrine\ORM\EntityManagerInterface;
 
